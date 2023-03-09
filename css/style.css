@@ -1,0 +1,354 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.bg-grey {
+  background: #fafafa;
+}
+
+
+
+/* bat dau thuc hanh */
+
+/* khoi banner -------------------------------------*/
+#banner {
+  background-image: url("../images/anh-con-cho-anh-cho-con.webp");
+  height: 804px;
+  /* img phủ banner */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 20px;
+  text-align: center;
+}
+.ten {
+  padding-top: 200px;
+  color: #64003e;
+}
+/* khoi navbar ------------------------------------------*/
+
+#nav-bar .container {
+  display: flex;
+  justify-content: center;
+}
+
+#nav-bar div {
+  text-align: center;
+  padding: 5px 20px;
+}
+
+#nav-bar h2 {
+  font-size: 20px;
+}
+
+#nav-bar span {
+  font-size: 10px;
+  color: #807f7f;
+}
+
+#nav-bar a {
+  display: inline-block;
+  width: 90px;
+}
+/* phan nang cao */
+.avata {
+  height: 20px;
+  position: relative;
+  top: -70px;
+  z-index: 100;
+}
+/* bo góc và độ dầy bo đờ */
+.avata img {
+  height: 150px;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px #807f7f;
+}
+
+/* thong tin ca nhan -------------------------------------------*/
+
+#about {
+  margin: 0 20px;
+  padding-top: 30px;
+}
+
+#about .container {
+  display: flex;
+}
+
+#about #target {
+  width: 50%;
+}
+#about .container > div {
+  padding: 0 30px;
+}
+
+#personal-info {
+  width: 50%;
+  background: #ececec;
+}
+
+#personal-info li {
+  font-size: 15px;
+  color: #807f7f;
+}
+
+.lien-lac {
+  margin: 20px 0 30px 0;
+}
+
+/* phan thong tin ----------------------------------------------*/
+
+#job-info {
+  margin: 0 20px 20px 20px;
+}
+
+#job-info .grid > div {
+  border: solid 1px #d3d3d3;
+}
+/* chia grip và độ dày gap */
+#job-info .container {
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+#job-info .flex {
+  margin-bottom: 20px;
+}
+
+#job-info .flex h1 {
+  width: 75%;
+  padding-left: 15px;
+  padding-bottom: 0;
+}
+/* li của kinh học hoạt */
+.khhli {
+  position: relative;
+}
+/* mấy cái chấm xanh xanh ấy */
+#job-info .khhli::before,
+#job-info .khhli::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #199cdb;
+  left: -25px;
+  top: 10px;
+}
+/* biểu tượng cho job */
+#job-info .flex i {
+  width: 25%;
+  font-size: 35px;
+  color: #807f7f;
+  margin-top: 20px;
+}
+
+.noi-dung {
+  padding: 0 20px;
+  color: #807f7f;
+}
+
+.khh {
+  padding: 0 5px 0 35px;
+}
+
+.noi-dung h2 {
+  font-size: 20px;
+  color: black;
+  margin: 10px 0;
+}
+
+.noi-dung h3 {
+  font-size: 17px;
+  color: black;
+  margin-bottom: 10px;
+}
+/* có mỗi chữ "hiện tại" mà mất mấy câu lệnh luôn */
+.noi-dung span {
+  padding: 3px 5px;
+  border-radius: 3px;
+  background-color: rgba(0, 47, 255, 0.651);
+  color: #fafafa;
+}
+
+.thoi-gian {
+  margin-bottom: 10px;
+}
+/* tìm mãi không thấy lu "-" đâu nên phải tự tạo */
+.noi-dung ul {
+  list-style: inside;
+  list-style-type: "- ";
+  margin-bottom: 20px;
+}
+/* xay dung so thich */
+.so-thich {
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+.so-thich i {
+  font-size: 20px;
+  padding-top: 10px;
+  margin: auto;
+  color: deepskyblue;
+  height: 40px;
+  width: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.so-thich p {
+  padding: 10px 0;
+}
+
+/* ki nang */
+
+.ki-nang {
+  padding: 0 20px;
+}
+
+
+.ki-nang span {
+    margin: 0 10px 10px 0;
+}
+
+.xanh {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.xam {
+  background: #a7a7a7;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* chung chi giai thuong ------------------------------*/
+
+#certificate {
+    margin: 0 20px 20px 20px;
+    padding: 0 10px 20px 50px;
+}
+
+#certificate img {
+    width: 20%;
+}
+/* tao bo đờ thủ công */
+#certificate .flex span {
+    width: 15px;
+    border-left: 1px solid #d1c300;
+}
+
+#certificate .flex {
+    padding: 50px 0;
+}
+
+#certificate .flex div {
+    width: 30%;
+    margin-left: 25px;
+}
+
+.border {
+    border-bottom: 1px solid #d1c300;
+}
+
+#certificate h3 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#certificate ul {
+    list-style: inside;
+    list-style-type: "- ";
+    color: #807f7f;
+}
+
+/* phan du an --------------------------------*/
+
+#project {
+    margin: 0 20px 20px 20px;
+    color: #807f7f;
+}
+
+#project .grid {
+    grid-template-columns: repeat(3, 32%);
+    column-gap: 25px;
+}
+
+#project img {
+    width: 100%;
+}
+
+#project .flex {
+    flex-direction: column;
+}
+
+#project h2{
+    margin: 15px;
+    font-size: 20px;
+}
+#project h1,
+#project h2 {
+    color: #615a00;
+}
+
+#project i {
+    color: #807f7f;
+    margin: 0 10px;
+}
+
+.flexda {
+    display: flex;
+    padding: 10px 5px;
+}
+.tieu-de {
+    width: 30%;
+}
+.saunoidung {
+    width: 70%;
+}
+/* định dạng cho "2021" */
+.namfunix {
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #199cdb;
+    border: 1px;
+    border-radius: 15px;
+}
+
+.borderda {
+    border: 1px solid #cccccc;
+}
+
+.duong-thang {
+    padding: 15px 0 15px 10px;
+    border-top: 1px solid #cccccc;
+}
+
+/* cuoi cung cung den footer, met qua met luon ------------- */
+
+#footer {
+    text-align: center;
+    padding: 20px;
+}
+
+#footer li {
+    display: inline-block;
+    margin-right: 30px;
+}
+#footer i {
+    margin: 10px;
+    font-size: 25px;
+}

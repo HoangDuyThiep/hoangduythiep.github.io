@@ -1,0 +1,44 @@
+/* khoi dung chung ---------------------------------------------------*/
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+i {
+    color: deepskyblue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container h1 {
+    padding: 30px 0;
+}
+
+.container p {
+    font-size: 15px;
+    color: #807f7f;
+    line-height: 1.5;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+.border-l {
+    border-left: solid 1px #cccccc;
+}
+
+.border-r {
+    border-right: solid 1px #cccccc;
+}
